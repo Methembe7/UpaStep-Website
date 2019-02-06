@@ -6,10 +6,12 @@ body {
   }
 
   my_menu{
-    float:left;
-    width:150px;
-    height:150px;
+   
+    /* find way to seperate logo from menu*/
   }
+
+
+  
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,7 +35,7 @@ ul {
   li a:hover {
     background-color: #678;
   }  
-  div {
+  .check{
     border: 1px solid rgb(131, 131, 245);
     background-color: lightblue;
     border-radius: 25px;
@@ -59,4 +61,20 @@ ul {
     background-size: 150px 150px;
   }
 */
+ .columnedspace {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  column-fill: balance;
+}
+.footer {                     /*add the footer*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+
+}
   
